@@ -1,0 +1,48 @@
+sauce graine
+
+ingredients: 400g de pulpe du fruit de palmier à huile (sauce graine),1 kg de poulet fumé, crabe, 1 oignon découpé en dés et 1 oignon coupé en deux, 2 tomates découpées en dés et 1 tomate coupée en deux, sel, 1 C à S de bouillon de poulet, 1,5 à 2 l d'eau
+composition:
+
+
+sauce aubergine
+
+ingredients: tomates, oignon, piments, poivre en poudre, cube maggi, graines de palme, eau potable, huile, protéines (viande/poisson/crabe/escargot...), sel.
+composition:
+
+
+
+
+
+    MembersRouter.route('/:id')
+
+    //     // Récupère un membre avec son ID
+    //     .get(async (req, res) => {
+    //         let member = await Members.getByID(req.params.id)
+    //         res.json(checkAndChange(member))
+    //     })
+
+    //     // Modifie un membre avec ID
+    //     .put(async (req, res) => {
+    //         let updateMember = await Members.update(req.params.id, req.body.nom)
+    //         res.json(checkAndChange(updateMember))
+    //     })
+
+    //     // Supprime un membre avec ID
+    //     .delete(async (req, res) => {
+    //         let deleteMember = await Members.delete(req.params.id)
+    //         res.json(checkAndChange(deleteMember))
+    //     })
+
+    // MembersRouter.route('/')
+
+    //     // Récupère tous les membres
+    //     .get(async (req, res) => {
+    //         let allMembers = await Members.getAll(req.query.max)
+    //         res.json(checkAndChange(allMembers))
+    //     })
+
+    //     // Ajoute un membre avec son nom
+    //     .post(async (req, res) => {
+    //         let addMember = await Members.add(req.body.nom)
+    //         res.json(checkAndChange(addMember))
+    //     })
